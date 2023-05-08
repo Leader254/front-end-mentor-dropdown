@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>
+      <img src="images/logo.svg" alt="Snap logo">
+    </h1>
+    <img src="images/icon-menu.svg" class="humburger" aria-hidden="true" alt="humberger-menu-icon">
+    <nav class="menu">
+      <ul class="nav-items">
+        <li class="features">
+          <button>Features
+            <img src="images/icon-arrow-down.svg" alt="down-arrow" aria-hidden="true"> </button>
+            <ul class="hidden-features">
+              <li><img src="images/icon-todo.svg" aria-hidden="true" height="15" width="15" alt=""><a href="#">ToDo List</a></li>
+              <li><img src="images/icon-calendar.svg" aria-hidden="true" height="15" width="15" alt=""><a href="#">Calendar</a></li>
+              <li><img src="images/icon-reminders.svg" aria-hidden="true" height="15" width="15" alt=""><a href="#">Reminders</a></li>
+              <li><img src="images/icon-planning.svg" aria-hidden="true" height="15" width="15" alt=""><a href="#">Planning</a></li>
+            </ul>
+        </li>
+        <li class="company">
+          <button>Company
+            <img src="images/icon-arrow-down.svg" alt="down-arrow" aria-hidden="true">
+          </button>
+          <ul class="hidden-company">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav-btns nav-menu">
+        <li><button>Login</button></li>
+        <li><button>Register</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="images/image-hero-desktop.png" class="hero" alt="main-section">
+    <section class="remote">
+      <section class="remote-info">
+        <h2>Make Remote Work</h2>
+        <p>Get your team in sync, no matter your location.<br> Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+      <section class="partners">
+        <img src="images/client-databiz.svg" alt="client1">
+        <img src="images/client-audiophile.svg" alt="client2">
+        <img src="images/client-meet.svg" alt="client3">
+        <img src="images/client-maker.svg" alt="client4">
+      </section>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Samuel Wachira</a>.
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
